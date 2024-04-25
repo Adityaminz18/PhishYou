@@ -75,7 +75,7 @@ folder_names = {
         '1': 'tiktok',
         '2': 'facebook',
         '3': 'instagram',
-        '4': 'ubereats',
+        '4': 'uber',
         '5': 'ola',
         '6': 'google',
         '7': 'paytm',
