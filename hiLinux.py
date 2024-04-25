@@ -7,6 +7,6 @@ sudo apt install php -y
 sudo apt install tail -y
 rm -rf hiLinux.py cloudflared-linux-amd64.deb
 clear
-cat "run python3 PhishYou.py"''')
+echo "run python3 PhishYou.py"''')
 
 ## this file gets auto delete after installion
