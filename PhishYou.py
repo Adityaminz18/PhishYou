@@ -113,9 +113,9 @@ def run(folder_name):
 
 def main():
     ctrlc(shut)
+    php_killer()
     os.system("clear")
     intro()
-    php_killer()
     site_options()
     choice = input("Enter your choice (eg: 1): ")
     os.system("clear")
