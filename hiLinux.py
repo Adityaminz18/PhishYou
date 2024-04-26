@@ -1,7 +1,8 @@
 import os
 
 
-os.system('''wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+os.system('''sudo apt update
+wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
 sudo dpkg -i cloudflared-linux-amd64.deb
 sudo apt install php -y
 sudo apt install tail -y
