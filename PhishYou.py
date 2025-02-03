@@ -4,6 +4,7 @@ import signal
 import time
 import src.processkiller as kill
 import src.cloudflared as cf
+import setup
 
 def php_killer():
     kill.killer()
@@ -130,4 +131,5 @@ def main():
 os.system("clear")
 loading()
 
+setup.setup()
 main()
